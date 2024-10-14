@@ -6,5 +6,5 @@ cat ./light.sh >> ./unpacked/DEBIAN/postinst
 
 dpkg-deb -b ./unpacked update_ae27075.mksp
 
-# rm -rf unpacked
+rm -rf unpacked
 
